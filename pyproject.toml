@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "surfacelens"
+version = "0.1.0"
+description = "Local-first attack surface intelligence workbench for pentesters."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Cyber Kareem" }
+]
+keywords = ["pentest", "recon", "bugbounty", "security", "attack-surface"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Information Technology",
+  "Topic :: Security",
+]
+
+[project.scripts]
+surfacelens = "surfacelens.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
