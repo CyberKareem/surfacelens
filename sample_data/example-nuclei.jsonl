@@ -1,0 +1,3 @@
+{"template-id":"exposed-panel","matcher-name":"grafana-login","matched-at":"https://grafana.acme.test/login","host":"grafana.acme.test","info":{"name":"Exposed Grafana Login Panel","severity":"medium","tags":["panel","grafana"]}}
+{"template-id":"openapi","matcher-name":"swagger-ui","matched-at":"https://api.acme.test/swagger/index.html","host":"api.acme.test","info":{"name":"Swagger UI Exposure","severity":"low","tags":["api","swagger"]}}
+{"template-id":"oauth-misconfig","matcher-name":"redirect-uri","matched-at":"https://auth.acme.test/oauth/authorize","host":"auth.acme.test","info":{"name":"OAuth Redirect Review Needed","severity":"info","tags":["oauth","auth"]}}

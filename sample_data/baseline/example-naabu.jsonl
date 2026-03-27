@@ -1,0 +1,2 @@
+{"host":"admin.acme.test","ip":"203.0.113.11","port":443,"protocol":"tcp"}
+{"host":"api.acme.test","ip":"203.0.113.10","port":443,"protocol":"tcp"}

@@ -1,0 +1,29 @@
+{
+  "ignore_hosts": ["www."],
+  "tag_rules": [
+    {
+      "field": "tech",
+      "contains": "grafana",
+      "tags": ["dashboard"]
+    },
+    {
+      "field": "host",
+      "contains": "auth",
+      "tags": ["identity"]
+    }
+  ],
+  "score_rules": [
+    {
+      "field": "host",
+      "contains": "admin",
+      "delta": 5,
+      "reason": "custom admin focus boost"
+    },
+    {
+      "field": "tag",
+      "contains": "identity",
+      "delta": 4,
+      "reason": "identity surface focus boost"
+    }
+  ]
+}

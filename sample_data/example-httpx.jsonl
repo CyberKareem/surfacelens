@@ -1,0 +1,5 @@
+{"input":"api.acme.test","host":"api.acme.test","url":"https://api.acme.test/v1/login","status_code":200,"title":"Acme API","tech":["nginx","swagger-ui","python"],"port":443,"ip":"203.0.113.10"}
+{"input":"admin.acme.test","host":"admin.acme.test","url":"https://admin.acme.test/login","status_code":403,"title":"Admin Console","tech":["nginx","react","oauth"],"port":443,"ip":"203.0.113.11"}
+{"input":"auth.acme.test","host":"auth.acme.test","url":"https://auth.acme.test/oauth/authorize","status_code":200,"title":"Sign In","tech":["keycloak","java"],"port":443,"ip":"203.0.113.12"}
+{"input":"grafana.acme.test","host":"grafana.acme.test","url":"https://grafana.acme.test/login","status_code":200,"title":"Grafana","tech":["grafana"],"port":3000,"ip":"203.0.113.13"}
+{"input":"www.acme.test","host":"www.acme.test","url":"https://www.acme.test/","status_code":200,"title":"Acme","tech":["cloudflare","next.js"],"port":443,"ip":"203.0.113.14"}

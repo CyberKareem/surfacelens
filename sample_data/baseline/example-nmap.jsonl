@@ -1,0 +1,1 @@
+{"host":"admin.acme.test","ip":"203.0.113.11","ports":[{"port":443,"protocol":"tcp","state":"open","service":"https","product":"nginx"}],"tls":{"subject_cn":"admin.acme.test","issuer_cn":"Acme Internal CA","sans":["admin.acme.test"],"not_before":"2026-01-01","not_after":"2027-01-01","expired":false,"self_signed":true}}

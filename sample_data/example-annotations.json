@@ -1,0 +1,10 @@
+{
+  "auth.acme.test": {
+    "labels": ["watchlist", "critical-app"],
+    "notes": ["Primary identity provider", "Review OAuth flows before brute-force testing"]
+  },
+  "api.acme.test": {
+    "labels": ["customer-facing", "api"],
+    "notes": ["Swagger exposure should be validated for auth bypass and data leakage"]
+  }
+}

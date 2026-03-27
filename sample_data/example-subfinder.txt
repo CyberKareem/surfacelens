@@ -1,0 +1,5 @@
+api.acme.test
+admin.acme.test
+auth.acme.test
+grafana.acme.test
+www.acme.test

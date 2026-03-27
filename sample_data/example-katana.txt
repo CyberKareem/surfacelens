@@ -1,0 +1,5 @@
+https://api.acme.test/v1/users
+https://api.acme.test/swagger/index.html
+https://admin.acme.test/settings
+https://admin.acme.test/users
+https://www.acme.test/login

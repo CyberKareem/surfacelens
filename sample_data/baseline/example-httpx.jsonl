@@ -1,0 +1,3 @@
+{"input":"api.acme.test","host":"api.acme.test","url":"https://api.acme.test/v1/login","status_code":200,"title":"Acme API","tech":["nginx","python"],"port":443,"ip":"203.0.113.10"}
+{"input":"admin.acme.test","host":"admin.acme.test","url":"https://admin.acme.test/login","status_code":403,"title":"Admin Console","tech":["nginx","react"],"port":443,"ip":"203.0.113.11"}
+{"input":"www.acme.test","host":"www.acme.test","url":"https://www.acme.test/","status_code":200,"title":"Acme","tech":["cloudflare"],"port":443,"ip":"203.0.113.14"}

@@ -1,0 +1,3 @@
+api.acme.test
+admin.acme.test
+www.acme.test
